@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="src/index.js" type="module" defer></script>
+</head>
+<body>
+    <main>
+        <button id="dateBtn">Калькулятор дат</button>
+        <button id="timerBtn">Таймер</button>
+        <div class="calc">
+            <h1>Калькулятор дат:</h1>
+            <form id="form-date">
+                <label for="date1">Первая дата:</label>
+                <input id="date1" type="date">
+                <label for="date2">Вторая дата:</label>
+                <input id="date2" type="date">
+
+                <button>Рассчитать промежуток</button>
+            </form>
+        </div>
+        <div class="timer vision">
+            <h1>Таймер:</h1>
+            <form id="form-timer">
+                <label for="setTime">Введите время в секундах: </label>
+                <input id="setTime" type="number">
+                <button class="form-timer-stop" type="button">Стоп</button>
+                <button class="form-timer-start" type="submit">Старт</button>
+            </form>
+        </div>
+        <p class="message"></p>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js" integrity="sha512-L6Z/YtIPQ7eU3BProP34WGU5yIRk7tNHk7vaC2dB1Vy1atz6wl9mCkTPPZ2Rn1qPr+vY2mZ9odZLdGYuaBk7dQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
